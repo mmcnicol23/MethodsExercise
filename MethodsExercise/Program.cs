@@ -4,6 +4,10 @@
     {
         static void Main(string[] args)
         {
+            Story();
+        }
+        public static void Story()
+        {
             Console.WriteLine("What is your name?");
             string name = Console.ReadLine();
             Console.WriteLine($"Nice to meet you, {name}.");
@@ -28,5 +32,6 @@
             Console.WriteLine($"{name} is a good friend of mine. Their favorite animal is {animal} and their favorite color is {color}. They enjoy listening to {band} on the radio.");
 
         }
+        
     }
 }
