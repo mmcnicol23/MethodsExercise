@@ -5,6 +5,18 @@
         static void Main(string[] args)
         {
             Story();
+
+            int added = Add(3, 5);
+            Console.WriteLine(added);
+
+            int subtracted = Subtract(10, 6);
+            Console.WriteLine(subtracted);
+
+            int multiplied = Multiply(12, 12);
+            Console.WriteLine(multiplied);
+
+            int divided = Divide(36, 6);
+            Console.WriteLine(divided);
         }
         public static void Story()
         {
@@ -33,5 +45,26 @@
 
         }
         
+        //Add integers
+        public static int Add(int num1, int num2)
+        {
+            return num1 + num2;
+        }
+        //Subtract integers
+        public static int Subtract(int num1, int num2)
+        {
+            return num1 - num2;
+        }
+        //Multiply integers
+        public static int Multiply(int num1, int num2)
+        {
+            return num1 * num2;
+        }
+        
+        //Divide integers
+        public static int Divide(int num1, int num2)
+        {
+            return num1 / num1;
+        }
     }
 }
